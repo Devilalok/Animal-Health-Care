@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /flag_backup/
+Disallow: /important/
+Disallow: /Find_me/

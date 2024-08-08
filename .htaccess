@@ -1,0 +1,18 @@
+# Prevent directory listing
+Options -Indexes
+
+# Deny access to hidden directories
+<Directory "http://127.0.0.1:5500/Find_me/">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+<Directory "http://127.0.0.1:5500/flag_backup/">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+<Directory "http://127.0.0.1:5500/important">
+    Order allow,deny
+    Deny from all
+</Directory>
